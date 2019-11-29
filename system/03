@@ -1,0 +1,5 @@
+/etc/hostaname
+
+#перезапустить скрипт /etc/init.d/hostname 
+#и изменить еще упоминания старого имени sed -i 's/debianworld.ru/new-debianworld.ru/g' /etc/hosts
+
