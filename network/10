@@ -1,1 +1,2 @@
+#!/bin/bash
 traceroute 42.fr

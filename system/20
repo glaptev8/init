@@ -1,1 +1,1 @@
-sed 's/:.*//' /etc/passwd
+awk -F ':' 'print $1' /etc/passwd

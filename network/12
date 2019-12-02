@@ -1,1 +1,2 @@
+#!/bin/bash/
 networksetup -getinfo "Ethernet" | grep -A 2 "DHCP Configuration" | grep "IP address"| awk '{print $3}'

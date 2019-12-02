@@ -1,1 +1,2 @@
-system stop ssh && ps aux && grep "ssh" && && grep -v "grep" && awk '{print $2}' && xargs kill -9
+system stop ssh
+ps aux | grep "ssh" && | grep -v "grep" | awk '{print $2}' | xargs kill -9
